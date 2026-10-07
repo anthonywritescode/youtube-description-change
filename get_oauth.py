@@ -1,5 +1,3 @@
-from __future__ import annotations
-
 import google_auth_oauthlib.flow
 
 flow = google_auth_oauthlib.flow.Flow.from_client_secrets_file(
